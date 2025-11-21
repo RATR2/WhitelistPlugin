@@ -1,0 +1,14 @@
+name: whitelistplugin
+version: '1.0'
+main: org.rat.whitelistplugin.Whitelistplugin
+api-version: '1.21'
+authors: [ R4T ]
+commands:
+  whitelistplugin:
+    description: Toggle whitelist sync
+    usage: /whitelistplugin <allow|deny>
+    permission: whitelistplugin.toggle
+permissions:
+  whitelistplugin.toggle:
+    description: Allows toggling whitelist sync
+    default: op

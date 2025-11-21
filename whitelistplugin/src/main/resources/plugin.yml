@@ -1,5 +1,0 @@
-name: whitelistplugin
-version: '1.0'
-main: org.rat.whitelistplugin.Whitelistplugin
-api-version: '1.21'
-authors: [ R4T ]
